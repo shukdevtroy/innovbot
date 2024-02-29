@@ -1,4 +1,4 @@
-dotenv
+python-dotenv
 PyPDF2
 langchain
 sentence-transformers
