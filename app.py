@@ -8,7 +8,7 @@ from langchain.vectorstores import FAISS #facebook AI similarity search
 from langchain.chains.question_answering import load_qa_chain
 from langchain import HuggingFaceHub
 
-
+@st.cache
 def main():
     load_dotenv()
     st.set_page_config(page_title="Ask InnovBot")
