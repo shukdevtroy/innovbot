@@ -105,3 +105,4 @@ PyPDF2
 langchain
 sentence-transformers
 faiss-cpu
+streamlit
